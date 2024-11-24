@@ -1,6 +1,7 @@
 import { Component, Input } from '@angular/core';
-import { Book } from '../../../models/book';
+
 import { CommonModule, NgIf } from '@angular/common';
+import { Book } from '../library/models/book';
 
 
 @Component({

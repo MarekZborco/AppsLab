@@ -4,9 +4,16 @@
     <p>Genre: {{ book.genre }}</p>
     <p>Pages: {{ book.pages }}</p>
 
-<div class="available">
-    <button ngIf="book.available" (click)="onOrder()">Reserve</button>
-    <p ngIf="!book.available">This book is unavailable</p>
-</div>
+    <div class="available">
+        
+        <button *ngIf="book.available" (click)="onOrder()">Reserve</button>
 
-    <br>
+        <p *ngIf="!book.available">This book is unavailable</p>
+       
+    
+    </div>
+    </div>
+    
+    
+        
+    @if(book.available){}

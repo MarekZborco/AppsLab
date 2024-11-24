@@ -1,24 +1,30 @@
 p {
-    font-size: large;
-    font-weight: bold;
+    font-size: medium;
+    font-weight: normal;
+    color: rgb(50, 50, 50);
 }
 
 h1 {
     text-align: center;
-    background-color: rgb(255, 169, 77);
-    margin: 0;
-    color: white;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
-    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(77, 136, 255);
+    margin: 10px;
+    color: black;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+    font-family: 'Arial', sans-serif;
 }
 
 .search {
-    border-radius: 20px;
+    border-radius: 10px;
     text-align: center;
-    margin-top: 8px;
+    margin-top: 20px;
+    background-color: rgb(230, 230, 230);
+    padding: 5px;
 }
 
 .search input {
-    margin-right: 5px;
+    margin-left: 10px;
+    border: 2px solid rgb(100, 100, 100);
+    padding: 2px;
+    border-radius: 5px;
 }

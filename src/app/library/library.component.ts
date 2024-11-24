@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { Book } from '../../../models/book';
+
 import { BookComponent } from '../book/book.component';
+import { Book } from './models/book';
 
 @Component({
   selector: 'app-library',
@@ -16,86 +17,83 @@ export class LibraryComponent {
   books: Book[] = [
     {
       id: 1,
-      title: 'The Silent Forest',
-      author: 'John Smith',
-      genre: 'Horror',
-      available: true,
-      pages: '300p'
+      title: 'Through the Crimson Sky',
+      author: 'Eleanor Harper',
+      genre: 'Steampunk',
+      available: false,
+      pages: '415p'
     },
     {
       id: 2,
-      title: 'Shadows of the Past',
-      author: 'Alice Johnson',
-      genre: 'Mystery',
-      available: false,
-      pages: '250p'
+      title: 'The Glass Sanctuary',
+      author: 'Victor Kane',
+      genre: 'Drama',
+      available: true,
+      pages: '290p'
     },
     {
       id: 3,
-      title: 'Echoes in the Dark',
-      author: 'Robert Black',
-      genre: 'Thriller',
-      available: true,
-      pages: '320p'
+      title: 'Chronicles of Dusk',
+      author: 'Isabelle Cross',
+      genre: 'Epic Fantasy',
+      available: false,
+      pages: '520p'
     },
-    
-      {
-            id: 4,
-            title: 'The Lost Kingdom',
-            author: 'Emily Davis',
-            genre: 'Fantasy',
-            available: true,
-            pages: '400p'
-          },
-          {
-            id: 5,
-            title: 'Beneath the Ice',
-            author: 'Michael White',
-            genre: 'Adventure',
-            available: false,
-            pages: '280p'
-          },
-          {
-            id: 6,
-            title: 'Whispers in the Wind',
-            author: 'Sophie Miller',
-            genre: 'Romance',
-            available: true,
-            pages: '230p'
-          },
-          {
-            id: 7,
-            title: 'Fires of Rebellion',
-            author: 'David Wilson',
-            genre: 'Historical Fiction',
-            available: true,
-            pages: '360p'
-          },
-          {
-            id: 8,
-            title: 'The Hidden Truth',
-            author: 'Laura Adams',
-            genre: 'Crime',
-            available: false,
-            pages: '310p'
-          },
-          {
-            id: 9,
-            title: 'Rise of the Machines',
-            author: 'James Baker',
-            genre: 'Science Fiction',
-            available: true,
-            pages: '290p'
-          },
-          {
-            id: 10,
-            title: 'The Last Stand',
-            author: 'Helen Turner',
-            genre: 'Post-Apocalyptic',
-            available: true,
-            pages: '340p'
-          }
-      
-        ];
-      }
-      
+    {
+      id: 4,
+      title: 'Binary Fracture',
+      author: 'Nathaniel Brooks',
+      genre: 'Cyberpunk',
+      available: true,
+      pages: '305p'
+    },
+    {
+      id: 5,
+      title: 'A Song for Ashes',
+      author: 'Clara Monroe',
+      genre: 'Tragedy',
+      available: false,
+      pages: '245p'
+    },
+    {
+      id: 6,
+      title: 'Phantom Reverie',
+      author: 'Gideon Lowe',
+      genre: 'Paranormal',
+      available: false,
+      pages: '375p'
+    },
+    {
+      id: 7,
+      title: 'The Iron Accord',
+      author: 'Hannah Ellis',
+      genre: 'Military Fiction',
+      available: true,
+      pages: '430p'
+    },
+    {
+      id: 8,
+      title: 'Tales of the Voidwalker',
+      author: 'Julian Raynor',
+      genre: 'Space Opera',
+      available: false,
+      pages: '480p'
+    },
+    {
+      id: 9,
+      title: 'The Marble Veil',
+      author: 'Penelope Lang',
+      genre: 'Gothic Fiction',
+      available: true,
+      pages: '310p'
+    },
+    {
+      id: 10,
+      title: 'Echoes of Tomorrow',
+      author: 'Miles Turner',
+      genre: 'Speculative Fiction',
+      available: false,
+      pages: '360p'
+    }
+  ]
+}
