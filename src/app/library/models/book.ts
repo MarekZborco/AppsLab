@@ -5,5 +5,6 @@ export interface Book {
     genre: string;
     available: boolean;
     pages: string;
+    year: string;
 
 }
